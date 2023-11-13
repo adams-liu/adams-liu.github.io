@@ -500,6 +500,16 @@ pre code {
   width: 58.33333%;
 }
 
+.row > .col-7 {
+  width: 58.33333%;
+}
+
+@media (max-width: 480px) {
+  .row > .col-7 {
+    width: 100%;
+  }
+}
+
 .row > .off-7 {
   margin-left: 58.33333%;
 }
